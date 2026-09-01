@@ -1,0 +1,39 @@
+/* NodeBB MCP Plugin Styles */
+.mcp-header-card {
+	background: linear-gradient(135deg, rgba(var(--bs-primary-rgb), 0.08) 0%, rgba(var(--bs-info-rgb), 0.08) 100%);
+	border: 1px solid rgba(var(--bs-primary-rgb), 0.15);
+}
+
+.mcp-icon-badge {
+	width: 56px;
+	height: 56px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 12px;
+	background: rgba(var(--bs-primary-rgb), 0.12);
+}
+
+.mcp-token-code {
+	background-color: var(--bs-tertiary-bg, #f8f9fa);
+	color: var(--bs-code-color, #d63384);
+	padding: 4px 8px;
+	border-radius: 6px;
+	font-size: 0.9em;
+	user-select: all;
+}
+
+#mcp-tabs .nav-link {
+	border: 1px solid transparent;
+	font-weight: 500;
+	color: var(--bs-body-color);
+}
+
+#mcp-tabs .nav-link.active {
+	background-color: var(--bs-primary);
+	color: #ffffff;
+}
+
+#mcp-tabs .nav-link:not(.active):hover {
+	background-color: rgba(var(--bs-primary-rgb), 0.08);
+}

@@ -1,0 +1,20 @@
+{
+	"id": "nodebb-plugin-mcp",
+	"name": "NodeBB Model Context Protocol (MCP)",
+	"description": "Native Model Context Protocol (MCP) server plugin for NodeBB forums with SSE transport and ACP token controls.",
+	"url": "https://github.com/mazafard/nodebb-plugin-mcp",
+	"templates": "./public/templates",
+	"modules": {
+		"../admin/plugins/mcp.js": "./public/admin.js"
+	},
+	"hooks": [
+		{ "hook": "static:app.load", "method": "init" },
+		{ "hook": "filter:admin.header.build", "method": "addAdminNavigation" }
+	],
+	"staticDirs": {
+		"static": "./static"
+	},
+	"css": [
+		"static/style.css"
+	]
+}

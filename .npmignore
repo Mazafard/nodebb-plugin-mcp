@@ -1,0 +1,12 @@
+.git
+.github
+.gitignore
+.DS_Store
+Dockerfile.dev
+docker-compose.dev.yml
+*.log
+test-*.js
+test/
+.vscode/
+.idea/
+
