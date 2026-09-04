@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Model Context Protocol (MCP) server plugin for NodeBB. Expose forum search, discussions, categories, and moderation to AI agents via standard MCP protocol.",
   "main": "library.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mazafard/nodebb-plugin-mcp.git"
+    "url": "https://github.com/mazafard/nodebb-plugin-mcp"
   },
   "keywords": [
     "nodebb",
@@ -34,6 +34,6 @@
     "zod": "^3.24.2"
   },
   "nbbpm": {
-    "compatibility": "^3.0.0 || ^4.0.0"
+    "compatibility": "^4.0.0"
   }
 }

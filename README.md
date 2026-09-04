@@ -1,6 +1,6 @@
 # NodeBB Model Context Protocol (MCP) Plugin
 
-[![NodeBB Compatibility](https://img.shields.io/badge/NodeBB-%5E3.0.0%20%7C%7C%20%5E4.0.0-blue.svg)](https://nodebb.org)
+[![NodeBB Compatibility](https://img.shields.io/badge/NodeBB-%5E4.0.0-blue.svg)](https://nodebb.org)
 [![MCP Protocol](https://img.shields.io/badge/MCP-v1.6.1-green.svg)](https://modelcontextprotocol.io)
 [![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](LICENSE)
 
